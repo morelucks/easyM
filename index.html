@@ -5,29 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Easybank Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
 <body class="bg-gray-100 text-gray-800">
 
     <!-- Header -->
-    <header class="bg-white shadow-lg">
+    <header class=" text-xl ">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="text-xl font-semibold text-green-600">
+            <div class="text-xl font-semibold ">
                 <img src="https://www.frontendmentor.io/static/images/logo-desktop.svg" alt="logo">
             </div>
 
-            <nav class="space-x-4">
-                <a href="#" class="text-gray-600 hover:text-green-600">Home</a>
-                <a href="#" class="text-gray-600 hover:text-green-600">About</a>
-                <a href="#" class="text-gray-600 hover:text-green-600">Services</a>
-                <a href="#" class="text-gray-600 hover:text-green-600">Contact</a>
+            <nav class="space-x-4 italic ">
+                <a href="#" class=" font-bold hover:text-green-600">About</a>
+                <a href="#" class=" font-bold hover:text-green-600">Home</a>
+                <a href="#" class=" font-bold hover:text-green-600">Services</a>
+                <a href="#" class=" font-bold hover:text-green-600">Contact</a>
+                <a href="#" class=" bg-black text-white p-3 rounded-full font-bold hover:text-green-600">LOGIN WITH GITHUB <i class="fab fa-github p-4 mr-2"></i></a>
+
             </nav>
         </div>
     </header>
     <br>
     <hr>
-    <h3>CHALLEGE</h3>
+    <h3 class="p-9 font-bold text-2xl">CHALLEGE</h3>
     <hr>
 
     <!-- Main Hero Section -->
@@ -49,8 +53,9 @@
     
             <!-- Left Div -->
             <div class="w-full  bg-white md:w-1/2 rounded-xl p-6">
-                <h2 class="text-2xl font-bold text-gray-800">Brief</h2>
-                <p class="mt-4 text-gray-600">Your challenge is to build out this landing page and get it looking as close to the design as possible.
+<h3 class="Text__Wrapper-sc-zbm6r7-0 Heading__Wrapper-sc-1v0dkkd-0 hRrrof kIYTA"><span
+        class="Spacer__Wrapper-sc-1qmp1cv-0 jTrlxu">📝</span>Brief</h3>              
+          <p class="mt-4 text-gray-600">Your challenge is to build out this landing page and get it looking as close to the design as possible.
                 
                 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice,
                 feel free to give it a go.
@@ -66,6 +71,7 @@
                 
                 Want some support on the challenge? Join our community and ask questions in the help channel.</p>
             </div>
+            
     
             <!-- Right Div -->
             <div class="w-full   rounded-xl md:w-1/2 flex  flex-col">
@@ -95,13 +101,161 @@
     </section>
 
 
-   
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-8">
-        <div class="container mx-auto px-6 text-center">
-            <p>&copy; 2024 Easybank. All Rights Reserved.</p>
+    <div class="max-w-6xl mx-auto bg-white rounded-lg shadow-lg p-6">
+        <h2 class="text-2xl font-bold text-center mb-4">Challenge FAQs</h2>
+        <div class="faq border-b border-gray-300 py-4">
+            <div class="flex justify-between items-center cursor-pointer">
+                <h3 class="text-xl font-medium">How can I get help if I'm stuck on a challenge?</h3>
+                <span class="text-xl text-gray-600">+</span>
+            </div>
+            <div class="answer hidden mt-2 text-gray-600">
+                <p>We don't provide "official" solutions for the challenges. This is because there is no single perfect way to complete a
+                challenge. Instead, you're encouraged to review other people's code in the community. You can learn so much by seeing
+                how other people have approached the same challenges and giving them feedback.</p>
+            </div>
+        </div>
+        <div class="faq border-b border-gray-300 py-4">
+            <div class="flex justify-between items-center cursor-pointer">
+                <h3 class="text-lg font-medium">How do I submit my solution?</h3>
+                <span class="text-xl text-gray-600">+</span>
+            </div>
+            <div class="answer hidden mt-2 text-gray-600">
+                <p>
+                    Frontend Mentor is a collaborative learning community where everyone can give feedback to each other. If you'd like to
+                    receive feedback from the community, please be sure to post a question when you submit your solution. The more specific
+                    you can be, the better. Being clear with your questions means you're much more likely to receive valuable feedback from
+                    others.
+                </p>
+            </div>
+        </div>
+        <div class="faq border-b border-gray-300 py-4">
+            <div class="flex justify-between items-center cursor-pointer">
+                <h3 class="text-lg font-medium">Is there an official solution I can take a look at?</h3>
+                <span class="text-xl text-gray-600">+</span>
+            </div>
+            <div class="answer hidden mt-2 text-gray-600">
+                <p>
+                    We don't provide "official" solutions for the challenges. This is because there is no single perfect way to complete a
+                    challenge. Instead, you're encouraged to review other people's code in the community. You can learn so much by seeing
+                    how other people have approached the same challenges and giving them feedback.
+                </p>
+            </div>
+        </div>
+        <div class="faq py-4">
+            <div class="flex justify-between items-center cursor-pointer">
+                <h3 class="text-lg font-medium">Do I get a code review when I post my solution?</h3>
+                <span class="text-xl text-gray-600">+</span>
+            </div>
+            <div class="answer hidden mt-2 text-gray-600">
+                <p>
+                    Frontend Mentor is a collaborative learning community where everyone can give feedback to each other. If you'd like to
+                    receive feedback from the community, please be sure to post a question when you submit your solution. The more specific
+                    you can be, the better. Being clear with your questions means you're much more likely to receive valuable feedback from
+                    others.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <section class="bg-gray-100 flex items-center justify-center min-h-screen">
+    
+        <div class="bg-blue-600 text-white p-11 rounded-lg max-w-9xl text-center shadow-lg">
+            <div class="flex justify-center ">
+                <!-- Discord Icon -->
+                <svg class="w-12 h-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245 240">
+                    <path fill="#ffffff"
+                        d="M104.4 104.4c-6.8 0-12.4 5.6-12.4 12.4s5.6 12.4 12.4 12.4 12.4-5.6 12.4-12.4-5.6-12.4-12.4-12.4zm36.2 0c-6.8 0-12.4 5.6-12.4 12.4s5.6 12.4 12.4 12.4 12.4-5.6 12.4-12.4-5.6-12.4-12.4-12.4z" />
+                    <path fill="#ffffff"
+                        d="M189.5 20H55.5C42 20 31 31 31 44.5v151c0 13.5 11 24.5 24.5 24.5h108.4l-5-17.4 12 10.9 11.4 10.5 20.3 17.6 35-30.6V44.5C214 31 203 20 189.5 20zM164.7 168.3l-7.7-9.6c15.3-4.4 21-14.2 21-14.2-4.8 3.2-9.3 5.5-13.5 7.1-5.9 2.5-11.5 4.1-17 5-11.2 2.1-21.5 1.5-30.5-.1-6.7-1.3-12.5-3-17.3-5.1-2.7-1.2-5.7-2.6-8.7-4.3-0.4-0.2-0.8-0.4-1.2-0.6-0.3-0.2-0.6-0.3-0.8-0.5-0.3-0.1-0.4-0.3-0.6-0.4-0.3-0.2-0.4-0.3-0.6-0.4-4.8-2.7-7.5-4.6-7.5-4.6s5.5 9.3 20 13.8l-7.1 9.1c-23.6-0.8-32.5-16.3-32.5-16.3 0-34.5 15.4-62.4 15.4-62.4 15.4-11.5 30.1-11.2 30.1-11.2l1 1.2c-19.2 5.5-28.1 14-28.1 14s2.4-1.3 6.5-3.1c11.8-5.1 21.2-6.5 25-6.9 0.7-0.1 1.3-0.2 2-0.2 7.2-1 15-1.3 23.2-0.2 10.9 1.3 22.6 4.5 34.5 11.3 0 0-8.4-8.1-26.4-13.6l1.4-1.6s14.7-0.3 30.1 11.2c0 0 15.4 27.9 15.4 62.4 0 0-8.9 15.5-32.5 16.3z" />
+                </svg>
+            </div>
+            <h2 class="text-2xl font-semibold mb-4">JOIN OUR DISCORD COMMUNITY</h2>
+            <p class="text-lg mb-6">Join thousands of Frontend Mentor community members taking the challenges, sharing
+                resources, helping each other, and chatting about all things front-end!</p>
+            <a href="#"
+                class="inline-block bg-white text-blue-600 font-bold py-3 px-6 rounded-full hover:bg-gray-200 transition-colors">JOIN
+                OUR DISCORD</a>
+        </div>
+    
+    </section>
+    
+
+    <!-- Footer Section -->
+    <footer class="bg-white w-full py-8">
+        <div class="w-full mx-auto px-4 text-xl">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+                <!-- Left Section: Logo and Subscription Form -->
+                <div class="md:w-1/3 mb-8 md:mb-0">
+                    <h2 class="mb-4 text-blue-600 text-3xl font-bold">Stay up to date</h2>                       
+                    <p class="mb-4">Stay up to date with new challenges, featured solutions, selected articles and our
+                        latest news</p>
+                    <div class="flex">
+                        <input type="email" placeholder="email@example.com" class="p-2 rounded-l-md border border-gray-300">
+                        <button class="bg-red-500 text-white px-4 py-2 rounded-r-md">SUBSCRIBE</button>
+                    </div>
+                </div>
+                <!-- Right Section: Navigation Links -->
+                <div class="flex flex-col md:flex-row justify-between w-full md:w-2/3">
+                    <!-- Column 1 -->
+                    <div class="mb-6 md:mb-0">
+                        <h4 class="font-semibold text-gray-700 mb-2">Frontend Mentor</h4>
+                        <ul>
+                            <li><a href="#" class="hover:text-gray-900">Unlock Pro</a></li>
+                            <li><a href="#" class="hover:text-gray-900">Contact us</a></li>
+                            <li><a href="#" class="hover:text-gray-900">FAQs</a></li>
+                        </ul>
+                    </div>
+                    <!-- Column 2 -->
+                    <div class="mb-6 md:mb-0">
+                        <h4 class="font-semibold text-gray-700 mb-2">Explore</h4>
+                        <ul>
+                            <li><a href="#" class="hover:text-gray-900">Learning paths</a></li>
+                            <li><a href="#" class="hover:text-gray-900">Challenges</a></li>
+                            <li><a href="#" class="hover:text-gray-900">Solutions</a></li>
+                            <li><a href="#" class="hover:text-gray-900">Articles</a></li>
+                            <li><a href="#" class="hover:text-gray-900">Resources</a></li>
+                        </ul>
+                    </div>
+                    <!-- Column 3 -->
+                    <div class="mb-6 md:mb-0">
+                        <h4 class="font-semibold text-gray-700 mb-2">Community</h4>
+                        <ul>
+                            <li><a href="#" class="hover:text-gray-900">Discord</a></li>
+                            <li><a href="#" class="hover:text-gray-900">Guidelines</a></li>
+                            <li><a href="#" class="hover:text-gray-900">Write for us</a></li>
+                        </ul>
+                    </div>
+                    <!-- Column 4 -->
+                    <div class="mb-6 md:mb-0">
+                        <h4 class="font-semibold text-gray-700 mb-2">For Companies</h4>
+                        <ul>
+                            <li><a href="#" class="hover:text-gray-900">Hire developers</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-300 mt-8 pt-4 text-center text-sm text-gray-500">
+                <p>&copy; Frontend Mentor 2019 - 2024</p>
+                <div class="flex justify-center space-x-4 mt-4">
+                    <a href="#" class="hover:text-gray-900">Terms</a>
+                    <a href="#" class="hover:text-gray-900">Cookie Policy</a>
+                    <a href="#" class="hover:text-gray-900">Privacy Policy</a>
+                    <a href="#" class="hover:text-gray-900">License</a>
+                </div>
+            </div>
         </div>
     </footer>
+    <script>
+        const faqs = document.querySelectorAll('.faq');
+
+        faqs.forEach(faq => {
+            faq.addEventListener('click', () => {
+                const answer = faq.querySelector('.answer');
+                answer.classList.toggle('hidden');
+                faq.querySelector('span').textContent = answer.classList.contains('hidden') ? '+' : '-';
+            });
+        });
+    </script>
 
 </body>
 
